@@ -11,7 +11,7 @@ from sklearn.preprocessing import MinMaxScaler
 # =========================
 # LOAD DATA
 # =========================
-df = pd.read_csv("D:/SKRIPSI/code/data.csv")
+df = pd.read_csv("datakecil.csv")
 df = df.drop_duplicates().dropna()
 df = df.head(5)  # 🔥 BATASI DATA
 
